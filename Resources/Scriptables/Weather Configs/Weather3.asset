@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97dde8c7ab74134290285f55fd01f51, type: 3}
+  m_Name: noon2
+  m_EditorClassIdentifier: 
+  fog: 0
+  FogColor: {r: 1, g: 1, b: 1, a: 1}
+  fogDensity: 0.0002
+  skyboxProperties:
+    Sky: {r: 0.20283005, g: 0.5451444, b: 1, a: 1}
+    Horizon: {r: 1, g: 0.9900419, b: 0.9103774, a: 1}
+    Ground: {r: 1, g: 1, b: 1, a: 1}
+    sunSkyColor: {r: 0, g: 0, b: 0, a: 0}
+    HorizonSize: 0.62
+  SunLightColor: {r: 1, g: 1, b: 1, a: 1}
+  SunIntensity: 1.4
+  sunAngle: 1.7137364
+  SunRotation: {x: 83.5001, y: 179.59183, z: 189.87239}
+  Clouds: 0
+  IsNight: 0

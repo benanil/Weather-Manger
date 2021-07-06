@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97dde8c7ab74134290285f55fd01f51, type: 3}
+  m_Name: morning2
+  m_EditorClassIdentifier: 
+  fog: 1
+  FogColor: {r: 0.41037738, g: 0.708501, b: 1, a: 1}
+  fogDensity: 0.0002
+  skyboxProperties:
+    Sky: {r: 0.41736376, g: 0.5767519, b: 0.7830188, a: 1}
+    Horizon: {r: 1, g: 0.82966936, b: 0.41981125, a: 1}
+    Ground: {r: 1, g: 0.8745098, b: 0.57254905, a: 1}
+    sunSkyColor: {r: 1, g: 0.899789, b: 0.7216981, a: 0}
+    HorizonSize: 0.55
+  SunLightColor: {r: 1, g: 1, b: 1, a: 1}
+  SunIntensity: 0.9
+  sunAngle: 2.411868
+  SunRotation: {x: 40.000015, y: 166.99242, z: 170.06949}
+  Clouds: 0
+  IsNight: 0

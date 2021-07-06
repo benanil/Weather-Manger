@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d97dde8c7ab74134290285f55fd01f51, type: 3}
+  m_Name: SunSet
+  m_EditorClassIdentifier: 
+  fog: 1
+  FogColor: {r: 0.20741367, g: 0.38461465, b: 0.5566038, a: 1}
+  fogDensity: 0.0015
+  skyboxProperties:
+    Sky: {r: 0.63576895, g: 0.73171055, b: 0.8584906, a: 1}
+    Horizon: {r: 0.77254903, g: 0.44929004, b: 0.019607859, a: 1}
+    Ground: {r: 0.3960784, g: 0.3960784, b: 0.39215684, a: 1}
+    sunSkyColor: {r: 1.3314303, g: 0.8125139, b: 0.42332655, a: 0}
+    HorizonSize: 0.6
+  SunLightColor: {r: 1, g: 1, b: 1, a: 1}
+  SunIntensity: 0.8
+  sunAngle: 0.6665389
+  SunRotation: {x: 23.53862, y: 349.16113, z: 351.13507}
+  Clouds: 0
+  IsNight: 0

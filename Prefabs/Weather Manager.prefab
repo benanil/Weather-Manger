@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8102503631929900325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8201096077076174935}
+  - component: {fileID: 3888849546872569025}
+  m_Layer: 0
+  m_Name: Weather Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8201096077076174935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102503631929900325}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.9164349, y: 13.46874, z: 8.317705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3888849546872569025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102503631929900325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbfcc838389809145a95e97b5e820eb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weatherConfigs:
+  - {fileID: 11400000, guid: 5fc3832ab06a1b140af0ea55565bc7d4, type: 2}
+  - {fileID: 11400000, guid: 1880b9f81d3fcba478562671347eaf5b, type: 2}
+  - {fileID: 11400000, guid: ba9f159b7c07e454b9aafdd9bd344c9d, type: 2}
+  - {fileID: 11400000, guid: 584703740fbf36349ba320f6a4df1f57, type: 2}
+  - {fileID: 11400000, guid: 596fad30ec10c3c4e882529709c9b48c, type: 2}
+  - {fileID: 11400000, guid: 7992ce7a1330ede4d90964bce5efb341, type: 2}
+  - {fileID: 11400000, guid: cf700dfffa0c28548884e0a6c002f341, type: 2}
+  - {fileID: 11400000, guid: d4c9baa1b8fb3234494e811ab9eaf383, type: 2}
+  - {fileID: 11400000, guid: 5a827a946b33ec841a2eee1e864663f9, type: 2}
+  PointLights: []
+  MaterialProperties: []
+  GlobalGlowColor: {r: 3.482353, g: 2.7764707, b: 1.8980392, a: 0}
+  LoadFromJsonAtStart: 0
+  SecondsBetweenWeathers: 600
+  SunSize: 0.05
+  StartConfingIndex: 4
+  Active: 1
